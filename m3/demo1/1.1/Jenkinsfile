@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'prod-win-agents' }
+    agent { label 'awscli' }
     environment {
         VERSION = "0.1.0"        
         VERSION_RC = "rc.2"
