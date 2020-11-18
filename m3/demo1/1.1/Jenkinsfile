@@ -1,5 +1,5 @@
 pipeline {
-    agent prod-win-agents
+    agent { label 'prod-win-agents' }
     environment {
         VERSION = "0.1.0"        
         VERSION_RC = "rc.2"
